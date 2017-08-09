@@ -25,6 +25,7 @@
       <param-value>UTF-8</param-value>
     </init-param>
   </filter>
+  <!--过滤器映射-->
   <filter-mapping>
     <filter-name>encodingFilter</filter-name>
     <url-pattern>/*</url-pattern>

@@ -16,7 +16,7 @@
     <!--添加学生-->
     <insert id="addStudent" useGeneratedKeys="true" keyProperty="id" parameterType="com.ljm.model.task10">
         INSERT INTO task10  (name,password,hope,course,date,school,qq,yinjian,shenhe,create,update,phone,company)
-        VALUE (#{name},#{password},#{hope},#{course},#{date},#{school},#{qq},#{yinjian},#{shenhe},#{create},#{update},#{phone},#{company})
+        VALUES (#{name},#{password},#{hope},#{course},#{date},#{school},#{qq},#{yinjian},#{shenhe},#{create},#{update},#{phone},#{company})
     </insert>
 
     <!--删除学生信息-->
